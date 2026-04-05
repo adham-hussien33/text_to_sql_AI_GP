@@ -1,0 +1,9 @@
+MODEL_PATH: "./LLMmodels/all-MiniLM-L6-v2"
+CHROMA_PATH: "./data/chroma_db"
+CONFIDENCE_THRESHOLD: 1.0
+
+
+DANGER_VERBS: ["delete", "update", "drop", "edit", "remove", "insert", "truncate", "alter"]
+SAFE_VERBS: ["show", "get", "find", "select", "list", "give", "search", "tell"]
+TABLES: ["departments", "students", "professors"]
+
